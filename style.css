@@ -7,14 +7,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
 }
 
 
 
 body {
   width: 100%;
+  font-family: 'Poppins', sans-serif;
 }
+
+
 
 
 /* contenuto totale */
@@ -26,6 +28,8 @@ body {
 }
 
 
+
+
 /* title */
 
 .header {
@@ -35,25 +39,20 @@ body {
 }
 
 
+
+
 /* form */
-
-/* CREARE UN COCICE JAVASCRIPT PER RIDIMENSIONARE #survey-form AL 100% QUANDO LA VIEVPORT E LARGA 500 IN GIU' */
-
 
 #survey-form {
   border: 1px solid black;
   border-radius: 10px;
   margin: 0 auto;
-  width: 100%;
+  width: 70%;
   padding: 30px;
   background: rgb(27 27 50 / 80%);
 }
 
-@media (min-width: 900px) {
-  #survey-form {
-    max-width:70%;
-  }
-}
+
 
 
 /* gruppo contenuti */
@@ -88,4 +87,36 @@ body {
   background: #37af65;
   border: none;
   border-radius: 5px;
+}
+
+
+
+/* responsive */
+
+
+@media (max-width: 900px) {
+  #survey-form {
+    width: 100%;
+    border-radius: 0;
+    border: 1px solid black;
+    border: none;
+    padding: 10px 0px;
+  }
+
+  .header {
+    padding: 20px 6px;
+  }
+
+  .form-group {
+    margin: 17px;
+  }
+
+  .container {
+    padding-bottom: 0;
+  }
+  
+
+
+
+  
 }
