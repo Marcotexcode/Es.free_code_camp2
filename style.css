@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+body {
+  width: 100%;
+}
+
+
+/* contenuto totale */
+
+.container {
+  background: rgba(58, 58, 158, 0.8);
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+
+/* title */
+
+.header {
+  text-align: center;
+  padding: 4em;
+  color: white;
+}
+
+
+/* form */
+
+/* CREARE UN COCICE JAVASCRIPT PER RIDIMENSIONARE #survey-form AL 100% QUANDO LA VIEVPORT E LARGA 500 IN GIU' */
+
+
+#survey-form {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 30px;
+  background: rgb(27 27 50 / 80%);
+}
+
+@media (min-width: 900px) {
+  #survey-form {
+    max-width:70%;
+  }
+}
+
+
+/* gruppo contenuti */
+
+.form-group {
+  margin: 30px;
+  font-size: 20px;
+  color: white;
+}
+
+.form-control {
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+}
+
+.input-radio, .input-checkbox {
+  margin: 0px 10px 0px 10px;
+}
+
+.input-textarea {
+  margin-top: 15px;
+  width: 100%;
+  height: 120px;
+}
+
+.submit-button {
+  width: 100%;
+  height: 40px;
+  background: #37af65;
+  border: none;
+  border-radius: 5px;
+}
